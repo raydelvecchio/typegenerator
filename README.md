@@ -6,7 +6,7 @@ output a fully formatted and TypeScript type for that dictionary!
 ```python
     import typegenerator as tg
     generator = tg.TypeGenerator()
-    sample = {"1": "hello!", "2": 10, "3": "10/29/22", "4": True, "5": [1, 2, 3], "6": None,
+    sample = {"1": "hello!", "2": 10, "3": "10/29/22", "4": True, "5": [1, "hi", False], "6": None,
               "7": {"8": 1, "9": 2, "10": {"11": True, "12": {"13": None}}}}
     generator.convert(sample, 'ts', verbose=True)
 ```
