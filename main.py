@@ -47,6 +47,6 @@ class TypeGenerator:
 
 if __name__ == "__main__":
     tg = TypeGenerator()
-    sample = {"key": "hello!", "number": 10, "date": "10/29/22", "bool": True, "lst": [1, 2, 3], "good": None,
-              "test": {"1": 1, "2": 2, "3": {"hello": True}}}
+    sample = {"1": "hello!", "2": 10, "3": "10/29/22", "4": True, "5": [1, 2, 3], "6": None,
+              "7": {"8": 1, "9": 2, "10": {"11": True, "12": {"13": None}}}}
     tg.convert(sample, 'ts', verbose=True)
