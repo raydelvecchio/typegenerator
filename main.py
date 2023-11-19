@@ -1,6 +1,6 @@
 class TypeGenerator:
     def __init__(self):
-        self.ts_map = {"int": "number", "float": "number", "complex": "number", "bool": "boolean", "str": "string",
+        self.ts_map = {"int": "number", "float": "number", "bool": "boolean", "str": "string",
                        "list": "any[]", "NoneType": "null"}
 
     def generate_ts_type(self, data: dict, name: str, indent=1) -> str:
