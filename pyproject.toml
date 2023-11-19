@@ -1,0 +1,23 @@
+[project]
+name = "typegenerator"
+version = "0.0.1"
+license = {text = "MIT License"}
+authors = [
+  { name="Ray Del Vecchio", email="xraydelv@gmail.com" },
+]
+description = "Python package to convert python dictionaries into other language types (Currently Typescript)."
+readme = "README.md"
+keywords = ["python", "dictionary", "data", "api", "type", "typescript", "object", "typesystem"]
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/raydelvecchio/typegenerator"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

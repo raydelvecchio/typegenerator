@@ -2,6 +2,12 @@
 Repository to convert Python dictionaries to Typescript Types. Input any full python dictionary, and receive as
 output a fully formatted and TypeScript type for that dictionary!
 
+# Installation
+You can find the project on PyPi [here](https://pypi.org/project/typegenerator/0.0.1/). To install, execute the below.
+```bash
+pip install typegenerator
+```
+
 # Example
 ```python
     import typegenerator as tg
@@ -31,6 +37,11 @@ type ABC = {
   }
 }
 ```
+
+# Deploying to Pip
+1. `python3 -m build`
+2. `python3 -m pip install --upgrade twine`
+3. `python3 -m twine upload --repository pypi dist/*`
 
 # TODOs
 * Handle the following types:
