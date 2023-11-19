@@ -1,1 +1,1 @@
-from generator import TypeGenerator
+from .generator import TypeGenerator
