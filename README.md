@@ -5,12 +5,12 @@ output a fully formatted and TypeScript type for that dictionary!
 # Installation
 You can find the project on PyPi [here](https://pypi.org/project/typegen/0.0.1/). To install, execute the below.
 ```bash
-pip install typegen
+pip install type_gen_dict
 ```
 
 # Example
 ```python
-    import typegen as tg
+    import type_gen_dict as tg
     generator = tg.TypeGenerator()
     sample = {"1": "hello!", "2": 10, "3": "10/29/22", "4": True, "5": [1, "hi", False], "6": None,
               "7": {"8": 1, "9": 2, "10": {"11": True, "12": {"13": None}}}}
@@ -42,6 +42,7 @@ type ABC = {
 1. `python3 -m build`
 2. `python3 -m pip install --upgrade twine`
 3. `python3 -m twine upload --repository pypi dist/*`
+Distribution names and pyproject.toml name must match!
 
 # TODOs
 * Deploy to PyPi!

@@ -1,5 +1,5 @@
 [project]
-name = "typegen"
+name = "type_gen_dict"
 version = "0.0.1"
 license = {text = "MIT License"}
 authors = [
