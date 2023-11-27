@@ -1,6 +1,6 @@
 [project]
 name = "type_gen_dict"
-version = "0.0.1"
+version = "0.0.2"
 license = {text = "MIT License"}
 authors = [
   { name="Ray Del Vecchio", email="xraydelv@gmail.com" },

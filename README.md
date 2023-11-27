@@ -13,7 +13,7 @@ pip install type-gen-dict
     import type_gen_dict as tg
     generator = tg.TypeGenerator()
     sample = {"1": "hello!", "2": 10, "3": "10/29/22", "4": True, "5": [1, "hi", False], "6": None,
-              "7": {"8": 1, "9": 2, "10": {"11": True, "12": {"13": None}}}}
+              "7": {"8": 1, "9": 2, "10": {"11": True, "12": {"13": None, "14": (1, "hi", True, set())}}}}
     generator.convert(sample, 'ts', verbose=True)
 ```
 **Output:**
@@ -32,6 +32,7 @@ type ABC = {
       11: boolean;
       12: {
         13: null;
+        14: [number,string,boolean,object,];
       }
     }
   }
