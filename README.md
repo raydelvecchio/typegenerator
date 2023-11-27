@@ -43,8 +43,3 @@ type ABC = {
 2. `python3 -m pip install --upgrade twine`
 3. `python3 -m twine upload --repository pypi dist/*`
 Distribution names and pyproject.toml name must match!
-
-# TODOs
-* Handle the following types:
-  * Tuples
-  * List typing (not just any[])
