@@ -45,7 +45,6 @@ type ABC = {
 Distribution names and pyproject.toml name must match!
 
 # TODOs
-* Deploy to PyPi!
 * Handle the following types:
   * Tuples
   * List typing (not just any[])
