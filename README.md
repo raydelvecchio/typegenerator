@@ -3,7 +3,7 @@ Repository to convert Python dictionaries to Typescript Types. Input any full py
 output a fully formatted and TypeScript type for that dictionary!
 
 # Installation
-You can find the project on PyPi [here](https://pypi.org/project/type_gen_dict/0.0.1/). To install, execute the below.
+You can find the project on PyPi [here](https://pypi.org/project/type_gen_dict). To install, execute the below.
 ```bash
 pip install type-gen-dict
 ```
