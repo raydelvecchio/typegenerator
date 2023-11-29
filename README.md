@@ -39,8 +39,7 @@ type ABC = {
 }
 ```
 
-# Deploying to Pip
-1. `python3 -m build`
-2. `python3 -m pip install --upgrade twine`
-3. `python3 -m twine upload --repository pypi dist/*`
-Distribution names and pyproject.toml name must match!
+# Pip Deploy
+1. `python3 setup.py sdist bdist_wheel`
+2. `pip install twine`
+3. `twine upload dist/*`
